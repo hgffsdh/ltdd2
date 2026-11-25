@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Build
+build/
+coverage/
+.cache/
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+firebase-debug.log*
+firestore-debug.log*
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
+
+# Generated native folders
+/ios
+/android
+
+# Firebase private credentials
+*service-account*.json
+*serviceAccount*.json
+*firebase-adminsdk*.json
+*admin.json
+*.pem
+.firebase/
+
+# Private directories
+private/
+secrets/
+credentials/
+
+# Temporary files
+*.tmp
+*.bak
+*.zip
+*.rar

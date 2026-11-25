@@ -1,0 +1,14 @@
+rules_version = '2';
+service cloud.firestore {
+ match /databases/{database}/documents {
+  function signed(){return request.auth != null;}
+  function staff(){return signed() && request.auth.token.parkingStaff == true;}
+  match /sp_slots/{id} { allow read: if signed(); allow write: if false; }
+  match /sp_users/{uid} { allow read: if signed() && (request.auth.uid == uid || staff()); allow write: if false; }
+  match /sp_sessions/{id} {
+   allow read: if signed() && (resource.data.userId == request.auth.uid || staff());
+   allow write: if false;
+   match /events/{event} { allow read: if staff(); allow write: if false; }
+  }
+ }
+}

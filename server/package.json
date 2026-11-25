@@ -1,0 +1,16 @@
+{
+  "name": "smart-parking-backend",
+  "private": true,
+  "main": "index.cjs",
+  "engines": {
+    "node": "22"
+  },
+  "scripts": {
+    "start": "node index.cjs",
+    "test": "node --test domain.test.cjs api.test.cjs"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "firebase-admin": "^13.0.0"
+  }
+}

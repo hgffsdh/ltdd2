@@ -1,0 +1,194 @@
+{
+  "1": {
+    "zone": "A",
+    "status": "Trống",
+    "userId": null,
+    "price": 20,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "2": {
+    "zone": "A",
+    "status": "Trống",
+    "userId": null,
+    "price": 20,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "3": {
+    "zone": "A",
+    "status": "Trống",
+    "userId": null,
+    "price": 20,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "4": {
+    "zone": "A",
+    "status": "Trống",
+    "userId": null,
+    "price": 20,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "5": {
+    "zone": "A",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "6": {
+    "zone": "A",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "7": {
+    "zone": "A",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "8": {
+    "zone": "A",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "9": {
+    "zone": "B",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "10": {
+    "zone": "B",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "11": {
+    "zone": "B",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "12": {
+    "zone": "B",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "13": {
+    "zone": "B",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "14": {
+    "zone": "B",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "15": {
+    "zone": "B",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "16": {
+    "zone": "B",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "17": {
+    "zone": "C",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "18": {
+    "zone": "C",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "19": {
+    "zone": "C",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "20": {
+    "zone": "C",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "21": {
+    "zone": "C",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "22": {
+    "zone": "C",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "23": {
+    "zone": "C",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  },
+  "24": {
+    "zone": "C",
+    "status": "Trống",
+    "userId": null,
+    "price": 10,
+    "startTime": null,
+    "color": "#10B981"
+  }
+}
