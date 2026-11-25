@@ -20,6 +20,7 @@ import ProfileScreen from './src/screens/ProfileScreen';
 import SettingsScreen from './src/screens/SettingsScreen';
 import AboutScreen from './src/screens/AboutScreen';
 import StaffScreen from './src/screens/StaffScreen';
+import WalletScreen from './src/screens/WalletScreen';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -40,6 +41,7 @@ function ProfileNavigator() {
   return (
     <ProfStack.Navigator screenOptions={{ headerShown: false }}>
       <ProfStack.Screen name="ProfileMain" component={ProfileScreen} />
+      <ProfStack.Screen name="Wallet" component={WalletScreen} />
       <ProfStack.Screen name="Settings" component={SettingsScreen} />
       <ProfStack.Screen name="About" component={AboutScreen} />
     </ProfStack.Navigator>

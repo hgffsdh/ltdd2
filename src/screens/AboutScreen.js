@@ -21,12 +21,12 @@ export default function AboutScreen({ navigation }) {
                 <Text style={styles.logoText}>P</Text>
             </View>
             <Text style={styles.appName}>Smart Parking Hub</Text>
-            <Text style={styles.appVersion}>Phiên bản 4.0.0 · Vận hành</Text>
+            <Text style={styles.appVersion}>Phiên bản 5.0.0 · Vận hành</Text>
         </View>
 
         <View style={styles.infoSection}>
             <Text style={styles.description}>
-                Ứng dụng quản lý bãi đỗ, vé điện tử, thu tiền mặt tại quầy và lịch sử giao dịch qua Firebase. Nhân viên xác nhận xe và tiền thực tế.
+                Ứng dụng quản lý bãi đỗ, vé điện tử, số dư trả trước, giữ chỗ có phí và lịch sử giao dịch qua Firebase. Nhân viên xác nhận xe và tiền thực tế.
             </Text>
         </View>
 

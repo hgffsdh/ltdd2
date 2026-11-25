@@ -5,6 +5,8 @@ service cloud.firestore {
   function staff(){return signed() && request.auth.token.parkingStaff == true;}
   match /sp_slots/{id} { allow read: if signed(); allow write: if false; }
   match /sp_users/{uid} { allow read: if signed() && (request.auth.uid == uid || staff()); allow write: if false; }
+  match /sp_topups/{id} { allow read: if signed() && (resource.data.userId == request.auth.uid || staff()); allow write: if false; }
+  match /sp_wallet_events/{id} { allow read: if signed() && resource.data.userId == request.auth.uid; allow write: if false; }
   match /sp_sessions/{id} {
    allow read: if signed() && (resource.data.userId == request.auth.uid || staff());
    allow write: if false;
